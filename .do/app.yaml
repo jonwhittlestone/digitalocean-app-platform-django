@@ -13,4 +13,4 @@ services:
   routes:
   - path: /
   run_command: gunicorn hello_django.wsgi:application --bind 0.0.0.0:8080 --worker-tmp-dir /dev/shm --chdir api
-  source_dir: api
+  source_dir: ./api

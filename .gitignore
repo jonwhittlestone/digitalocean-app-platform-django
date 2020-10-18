@@ -7,3 +7,4 @@ mediafiles
 .env
 .idea
 env
+venv
